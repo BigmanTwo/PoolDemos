@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onLoadComplete(SoundPool soundPool, int sampleId,
                                        int status) {
-                // 每次装载完成均会回调
+                //    每次装载完成均会回调
                 // 当前装载完成ID为map的最大值，即为最后一次装载完成
                 if (sampleId == poolMap.size()) {
                     btn_newqqmsg.setOnClickListener(click);
